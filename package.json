@@ -1,0 +1,16 @@
+{
+  "name": "task-hive",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "swiper": "^11.2.8",
+    "tailwindcss": "^4.1.7"
+  }
+}
